@@ -66,12 +66,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/omgbuild/omgbuild.git"
+    "url": "git+https://github.com/doanchienthangdev/omgbuild.git"
   },
   "bugs": {
-    "url": "https://github.com/omgbuild/omgbuild/issues"
+    "url": "https://github.com/doanchienthangdev/omgbuild/issues"
   },
-  "homepage": "https://omgbuild.dev",
+  "homepage": "https://github.com/doanchienthangdev/omgbuild#readme",
   "engines": {
     "node": ">=18.0.0"
   },
