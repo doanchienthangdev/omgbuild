@@ -1,6 +1,6 @@
 {
   "name": "omgbuild",
-  "version": "0.6.0",
+  "version": "0.6.2",
   "description": "🔮 OMGBUILD - AI-Native Software Development Operating System. Big Tech Engineering Culture in a Box.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -31,7 +31,7 @@ import { registryCommand } from './commands/registry';
 // Update command
 import { updateCommand } from './commands/update';
 
-const VERSION = '0.6.0';
+const VERSION = '0.6.2';
 
 const program = new Command();
 
