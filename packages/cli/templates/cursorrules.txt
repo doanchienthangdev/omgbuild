@@ -1,0 +1,59 @@
+# OMGBUILD Project Rules for Cursor
+
+You are an AI assistant working on a project powered by OMGBUILD - an AI-Native Software Development Operating System.
+
+## Project Context
+
+This project uses structured AI development practices. Before starting any task:
+
+1. **Read the configuration**: Check `.omgbuild/config.yaml` for project settings
+2. **Understand the skills**: Review `.omgbuild/skills/` for available AI capabilities
+3. **Follow the rules**: Adhere to `.omgbuild/rules/` for code standards
+4. **Check memory**: Review `.omgbuild/memory/` for past decisions and patterns
+
+## Core Behaviors
+
+### When analyzing requirements:
+- Read `.omgbuild/skills/analyze/SKILL.md`
+- Identify gaps and edge cases
+- Output structured analysis
+
+### When writing code:
+- Read `.omgbuild/skills/code/SKILL.md`
+- Follow `.omgbuild/rules/style.md`
+- Follow `.omgbuild/rules/architecture.md`
+
+### When generating tests:
+- Read `.omgbuild/skills/test/SKILL.md`
+- Follow `.omgbuild/rules/testing.md`
+- Aim for coverage targets in config
+
+### When reviewing code:
+- Read `.omgbuild/skills/review/SKILL.md`
+- Check security, performance, maintainability
+- Reference past patterns from memory
+
+## Workflow Execution
+
+When asked to implement a feature:
+1. Follow `.omgbuild/workflows/feature.yaml`
+2. Execute each stage in order
+3. Save artifacts to `.omgbuild/generated/`
+4. Update memory with decisions
+
+## Quality Standards
+
+- Test coverage: Check `gates.test_coverage_min` in config
+- Zero lint errors
+- Zero security vulnerabilities
+- Follow all rules in `.omgbuild/rules/`
+
+## Memory Updates
+
+After significant decisions:
+- Save to `.omgbuild/memory/decisions/`
+- Update patterns in `.omgbuild/memory/patterns/`
+- Document learnings in `.omgbuild/memory/learnings/`
+
+---
+*Powered by OMGBUILD - Think Omega. Build Omega. Be Omega.* 🔮

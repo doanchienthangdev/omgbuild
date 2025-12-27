@@ -1,0 +1,35 @@
+{
+  "name": "omgbuild-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "🔮 OMGBUILD - Big Tech Engineering Culture in a Box",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "dev": "npm run dev --workspace=@omgbuild/cli",
+    "test": "npm run test --workspaces",
+    "lint": "eslint packages/*/src/**/*.ts",
+    "clean": "rm -rf packages/*/dist",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "ai",
+    "agentic",
+    "development",
+    "automation",
+    "claude",
+    "cursor",
+    "coding"
+  ],
+  "author": "OMEGA",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omgbuild/omgbuild.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

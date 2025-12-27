@@ -1,0 +1,82 @@
+{
+  "name": "omgbuild",
+  "version": "0.6.0",
+  "description": "🔮 OMGBUILD - AI-Native Software Development Operating System. Big Tech Engineering Culture in a Box.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "omgbuild": "./bin/omgbuild.js",
+    "omg": "./bin/omgbuild.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "skills",
+    "templates"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "start": "node bin/omgbuild.js",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "prepublishOnly": "npm run build",
+    "postversion": "git push && git push --tags"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "enquirer": "^2.4.1",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.3.10",
+    "js-yaml": "^4.1.0",
+    "ora": "^8.0.1",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/archiver": "^7.0.0",
+    "@types/fs-extra": "^11.0.4",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.11.0",
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [
+    "cli",
+    "ai",
+    "agentic",
+    "development",
+    "automation",
+    "claude",
+    "cursor",
+    "omega",
+    "devops",
+    "productivity",
+    "llm",
+    "openai",
+    "anthropic",
+    "coding-assistant",
+    "ai-agent"
+  ],
+  "author": {
+    "name": "OMEGA Team",
+    "url": "https://omgbuild.dev"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omgbuild/omgbuild.git"
+  },
+  "bugs": {
+    "url": "https://github.com/omgbuild/omgbuild/issues"
+  },
+  "homepage": "https://omgbuild.dev",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
